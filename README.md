@@ -42,15 +42,12 @@ The project utilizes three CSV files:
   * NMF
 * Finalized the use of **SVD i.e Singular Value Decomposition** to generate recommendations.
 * **Implementation Details for SVD**:
-  * Built a full training dataset using the `<span>scikit-surprise</span>` library.
+  * Built a full training dataset using the `scikit-surprise` library.
   * Trained the SVD model on user-item interactions.
   * For a given book, calculated similarity scores between its latent factors and those of all other books using cosine similarity.
   * Ranked the books based on their similarity scores and retrieved the top 5 recommendations.
   * Each recommendation includes the book title, author, and cover image for enhanced user experience.
 
-## Deployment
-
-The application is deployed using **Streamlit**. Users can interact with the system to get book recommendations.
 
 ## Installation
 
