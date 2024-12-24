@@ -56,7 +56,7 @@ The application is deployed using **Streamlit**. Users can interact with the sys
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/bhumikaxyz/book-recommendation-system.git
    ```
 2. Navigate to the project directory:
    ```
